@@ -2,6 +2,7 @@ import React from 'react'
 import flmain from '../../assets/images/fkheaderlogo_plus.svg'
 import './navbar.css'
 function Navbar() {
+
   return (
     <>
     <div className="navbar-main">
@@ -30,15 +31,15 @@ function Navbar() {
                 <i class="fa-solid fa-ellipsis-vertical"></i>
             </button>
             <div className="option-show">
-                <div className="option-items"><a href="#">Notofication Preferences</a></div>
-                <div className="option-items"><a href="#">24/7 Customer Support</a></div>
-                <div className="option-items"><a href="#">Advertise</a></div>
-                <div className="option-items"><a href="#">Download App</a></div>
+                <div className="option-items"><a href="#"><i class="fa-solid fa-bell"></i>Notofication Preferences</a></div>
+                <div className="option-items"><a href="#"><i class="fa-solid fa-headphones"></i>24/7 Customer Support</a></div>
+                <div className="option-items"><a href="#"><i class="fa-solid fa-arrow-trend-up"></i>Advertise</a></div>
+                <div className="option-items"><a href="#"><i class="fa-solid fa-download"></i>Download App</a></div>
             </div>
         </div>
     </div>
     </>
   )
 }
-//33:57
+//1:23:25
 export default Navbar
