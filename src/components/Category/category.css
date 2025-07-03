@@ -1,0 +1,14 @@
+.category{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    /* width: 97%; */
+    padding: 10px 12%;
+}
+.home-navbar{
+    width: 100%;
+}
+.home-category{
+    width: 98%;
+    margin-top: 10px;
+}

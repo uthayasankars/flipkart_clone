@@ -1,7 +1,7 @@
 import React from 'react'
 import flmain from '../../assets/images/fkheaderlogo_plus.svg'
 import './navbar.css'
-function Navbar() {
+function Navbar(props) {
 
   return (
     <>
@@ -15,7 +15,7 @@ function Navbar() {
         </div>
         <div className="navbar-item3">
             <button className='login-btn'>
-                <i className="fa-regular fa-user"></i> Login</button>
+                <i className="fa-regular fa-user"></i> {props.loginName}</button>
         </div>
         <div className="navbar-item4">
             <button className='cart-btn'>
