@@ -12,3 +12,6 @@
     width: 98%;
     margin-top: 10px;
 }
+.category-item>p{
+    font-weight: bold;
+}

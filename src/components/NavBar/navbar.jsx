@@ -19,7 +19,7 @@ function Navbar(props) {
         </div>
         <div className="navbar-item4">
             <button className='cart-btn'>
-                <i class="fa-solid fa-cart-shopping"></i> Cart</button>
+                <i className="fa-solid fa-cart-shopping"></i> Cart</button>
         </div>
         <div className="navbar-item5">
             <button className="become-a-seller">
@@ -28,18 +28,17 @@ function Navbar(props) {
         </div>
         <div className="navbar-item6">
             <button className='options'>
-                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <i className="fa-solid fa-ellipsis-vertical"></i>
             </button>
             <div className="option-show">
-                <div className="option-items"><a href="#"><i class="fa-solid fa-bell"></i>Notofication Preferences</a></div>
-                <div className="option-items"><a href="#"><i class="fa-solid fa-headphones"></i>24/7 Customer Support</a></div>
-                <div className="option-items"><a href="#"><i class="fa-solid fa-arrow-trend-up"></i>Advertise</a></div>
-                <div className="option-items"><a href="#"><i class="fa-solid fa-download"></i>Download App</a></div>
+                <div className="option-items"><a href="#"><i className="fa-solid fa-bell"></i>Notofication Preferences</a></div>
+                <div className="option-items"><a href="#"><i className="fa-solid fa-headphones"></i>24/7 Customer Support</a></div>
+                <div className="option-items"><a href="#"><i className="fa-solid fa-arrow-trend-up"></i>Advertise</a></div>
+                <div className="option-items"><a href="#"><i className="fa-solid fa-download"></i>Download App</a></div>
             </div>
         </div>
     </div>
     </>
   )
 }
-//1:23:25
 export default Navbar
