@@ -1,0 +1,36 @@
+.products-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.product-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+
+}
+.product-item img{
+    width: 80%;
+    height: auto;
+}
+.product-item h3{
+    width: 4rem;
+    margin: 0.5rem 0;
+    color: brown;
+    font-weight: bold;
+}
+.product-item p{
+    font-size: 1rem;
+    color: #0804d7;
+}
+.add-to-cart{
+    background-color: #69bb8a;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    cursor: pointer; 
+}
+
+    
