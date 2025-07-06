@@ -1,6 +1,9 @@
-import React from 'react'
+import datas from '../../../datas.js'
 
 function CategoryItems({imageURL, categoryName}) {
+
+  console.log(datas);
+  
   return (
     <>
     <div className="category-item">
