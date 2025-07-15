@@ -1,4 +1,4 @@
-// import datas from '../../../datas.js'
+import datas from '../../../datas.js'
 
 function CategoryItems({imageURL, categoryName}) {
 

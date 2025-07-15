@@ -9,8 +9,8 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <Home/> */}
     {/* <Hooks/> */}
-    {/* <References/> */}
-    <AudioPlayer/>
+    <References/>
+    {/* <AudioPlayer/> */}
 
   </StrictMode>,
 )
