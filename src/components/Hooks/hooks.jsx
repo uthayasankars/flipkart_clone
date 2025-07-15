@@ -18,7 +18,7 @@ function Hooks() {
 
             <button onClick={()=> setContextValue("Dark")}>Dark</button>
             <br />
-            {/* <button onClick={()=> setContextValue("Light")}>Light</button> */}
+            <button onClick={()=> setContextValue("Light")}>Light</button>
             {/* {You can use contextValue in child components} */}
 
         </div>
@@ -45,7 +45,7 @@ function ThemeButton() {
 }
   let dark = {
     backgroundcolor: "black",
-    color: "white",
+    color: "blue",
     height: "50vh",
   }
     // const theme = userContext(ThemeButton);
@@ -53,7 +53,7 @@ function ThemeButton() {
   return(
     <>
   
-  <div className={theme}> style={theme == "light" ? light : dark}
+  <div className={theme} style={theme == "light" ? light : dark}>
       theme {theme}
   </div> 
   </>
