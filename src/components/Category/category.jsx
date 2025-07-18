@@ -1,6 +1,9 @@
 import CategoryItems from "./category-items";
 import '../Category/category.css';
+
 function Category() {
+  console.log("Category");
+
   return (
     <>
     <div className="category">

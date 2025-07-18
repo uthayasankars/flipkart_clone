@@ -1,6 +1,7 @@
 import React from 'react'
 import ProdcutItem from './product-item'
 import datas from "../../../datas.js"
+import { Link } from "react-router-dom";
 
 function Products() {
   return (
@@ -11,12 +12,13 @@ function Products() {
 
                 
                     <div key={item.id} className="product-item-container">
+                    <Link to={`/product-item/${item.id}`}>
                         <ProdcutItem 
                         images={item.thumbnail} 
                         name={item.title} 
                         price={item.price} 
                         stock={item.stock}/>
-                 
+                  </Link>
                     </div>
                 )
             })}

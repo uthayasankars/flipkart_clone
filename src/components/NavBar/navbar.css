@@ -11,9 +11,11 @@
     align-items: center;
 }
 .navbar-item2>input{
-width: 685px;
-height: 40px;
-border: none;
+    width: 685px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    font-size: 17px;
 }
 .navbar-item2>button{
     height: 40px;
@@ -65,8 +67,8 @@ border: none;
 }
 .option-items:hover{
     display: flex;
-    background-color: #d3d6de;
+    background-color: #d7d9dc;
 }
-.options:hover+div{
-    display: flex;
+.options:not(:hover)+div{
+    display: none;
 }
